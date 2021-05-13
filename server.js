@@ -8,6 +8,7 @@ const {
 
 const app = express();
 
+
 const schema = new GraphQLSchema({
   query: new GraphQLObjectType({
     name: 'hello',
